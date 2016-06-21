@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Graphite>
+    <CarbonServer>ubudev01.starbucks.net</CarbonServer>
+    <CarbonServerPort>2003</CarbonServerPort>
+    <MetricRoot>61c57314-a98f-4864-a9a6-089ab27cc0a1.00010.vnx.</MetricRoot>
+  </Graphite>
+  <Monitor>
+    <Scope Type = "Disk" Enabled ="False">
+      <Metric Name = "Utilization" Enabled = "True"/>
+      <Metric Name = "Utilization-Optimal" Enabled = "True"/>
+      <Metric Name = "Utilization-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Queue Length" Enabled = "True"/>
+      <Metric Name = "Queue Length-Optimal" Enabled = "False"/>
+      <Metric Name = "Queue Length-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Response Time" Enabled = "True"/>
+      <Metric Name = "Response Time-Optimal" Enabled = "False"/>
+      <Metric Name = "Response Time-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth-Optimal" Enabled = "False"/>
+      <Metric Name = "Total Bandwidth-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Total Throughput-Optimal" Enabled = "False"/>
+      <Metric Name = "Total Throughput-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Read Bandwidth" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth-Optimal" Enabled = "False"/>
+      <Metric Name = "Read Bandwidth-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Read Size" Enabled = "True"/>
+      <Metric Name = "Read Size-Optimal" Enabled = "False"/>
+      <Metric Name = "Read Size-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Read Throughput" Enabled = "True"/>
+      <Metric Name = "Read Throughput-Optimal" Enabled = "False"/>
+      <Metric Name = "Read Throughput-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Write Bandwidth" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth-Optimal" Enabled = "False"/>
+      <Metric Name = "Write Bandwidth-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Write Size" Enabled = "True"/>
+      <Metric Name = "Write Size-Optimal" Enabled = "False"/>
+      <Metric Name = "Write Size-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Write Throughput" Enabled = "True"/>
+      <Metric Name = "Write Throughput-Optimal" Enabled = "False"/>
+      <Metric Name = "Write Throughput-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Average Busy Queue Length" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length-Optimal" Enabled = "False"/>
+      <Metric Name = "Average Busy Queue Length-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Service Time" Enabled = "True"/>
+      <Metric Name = "Service Time-Optimal" Enabled = "False"/>
+      <Metric Name = "Service Time-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Explicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count-Optimal" Enabled = "False"/>
+      <Metric Name = "Explicit Trespass Count-Nonoptimal" Enabled = "False"/>
+      <Metric Name = "Implicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count-Optimal" Enabled = "False"/>
+      <Metric Name = "Implicit Trespass Count-Nonoptimal" Enabled = "False"/>
+    </Scope>
+    <Scope Type = "Pool" Enabled ="False">
+      <Metric Name = "FAST Cache Read Hits/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Misses/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Hit Ratio" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Hits/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Misses/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Hit Ratio" Enabled = "True"/>
+    </Scope>
+    <Scope Type = "Pool Public LUN" Enabled ="False">
+      <Metric Name = "Utilization" Enabled = "True"/>
+      <Metric Name = "Utilization-Optimal" Enabled = "True"/>
+      <Metric Name = "Utilization-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Queue Length" Enabled = "True"/>
+      <Metric Name = "Queue Length-Optimal" Enabled = "True"/>
+      <Metric Name = "Queue Length-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Response Time" Enabled = "True"/>
+      <Metric Name = "Response Time-Optimal" Enabled = "True"/>
+      <Metric Name = "Response Time-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Total Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Total Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Size" Enabled = "True"/>
+      <Metric Name = "Read Size-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Size-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Throughput" Enabled = "True"/>
+      <Metric Name = "Read Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Size" Enabled = "True"/>
+      <Metric Name = "Write Size-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Size-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Throughput" Enabled = "True"/>
+      <Metric Name = "Write Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length-Optimal" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Service Time" Enabled = "True"/>
+      <Metric Name = "Service Time-Optimal" Enabled = "True"/>
+      <Metric Name = "Service Time-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count-Optimal" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count-Optimal" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count-Nonoptimal" Enabled = "True"/>
+    </Scope>
+    <Scope Type = "Port" Enabled ="False">
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth" Enabled = "True"/>
+      <Metric Name = "Read Size" Enabled = "True"/>
+      <Metric Name = "Read Throughput" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth" Enabled = "True"/>
+      <Metric Name = "Write Size" Enabled = "True"/>
+      <Metric Name = "Write Throughput" Enabled = "True"/>
+      <Metric Name = "Queue Full Count" Enabled = "True"/>
+    </Scope>
+    <Scope Type = "Private Raid Group LUN" Enabled ="False">
+      <Metric Name = "Utilization" Enabled = "True"/>
+      <Metric Name = "Queue Length" Enabled = "True"/>
+      <Metric Name = "Response Time" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth" Enabled = "True"/>
+      <Metric Name = "Read Size" Enabled = "True"/>
+      <Metric Name = "Read Throughput" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth" Enabled = "True"/>
+      <Metric Name = "Write Size" Enabled = "True"/>
+      <Metric Name = "Write Throughput" Enabled = "True"/>
+      <Metric Name = "Full Stripe Writes/s" Enabled = "True"/>
+      <Metric Name = "Prefetch Bandwidth" Enabled = "True"/>
+      <Metric Name = "Used Prefetches" Enabled = "True"/>
+      <Metric Name = "SP Cache Read Hits/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Read Misses/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Reads From WC/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Reads From RC/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Read Hit Ratio" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Hits/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Misses/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Rehits/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Hit Ratio" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Rehit Ratio" Enabled = "True"/>
+      <Metric Name = "SP Cache Forced Flushes/s" Enabled = "True"/>
+      <Metric Name = "Disk Crossings" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length" Enabled = "True"/>
+      <Metric Name = "Disk Crossings/s" Enabled = "True"/>
+      <Metric Name = "Service Time" Enabled = "True"/>
+      <Metric Name = "Read 512B" Enabled = "True"/>
+      <Metric Name = "Read 1KB" Enabled = "True"/>
+      <Metric Name = "Read 2KB" Enabled = "True"/>
+      <Metric Name = "Read 4KB" Enabled = "True"/>
+      <Metric Name = "Read 8KB" Enabled = "True"/>
+      <Metric Name = "Read 16KB" Enabled = "True"/>
+      <Metric Name = "Read 32KB" Enabled = "True"/>
+      <Metric Name = "Read 64KB" Enabled = "True"/>
+      <Metric Name = "Read 128KB" Enabled = "True"/>
+      <Metric Name = "Read 256KB" Enabled = "True"/>
+      <Metric Name = "Read 512KB" Enabled = "True"/>
+      <Metric Name = "Write 512B" Enabled = "True"/>
+      <Metric Name = "Write 1KB" Enabled = "True"/>
+      <Metric Name = "Write 2KB" Enabled = "True"/>
+      <Metric Name = "Write 4KB" Enabled = "True"/>
+      <Metric Name = "Write 8KB" Enabled = "True"/>
+      <Metric Name = "Write 16KB" Enabled = "True"/>
+      <Metric Name = "Write 32KB" Enabled = "True"/>
+      <Metric Name = "Write 64KB" Enabled = "True"/>
+      <Metric Name = "Write 128KB" Enabled = "True"/>
+      <Metric Name = "Write 256KB" Enabled = "True"/>
+      <Metric Name = "Write 512KB" Enabled = "True"/>
+      <Metric Name = "Total 512B" Enabled = "True"/>
+      <Metric Name = "Total 1KB" Enabled = "True"/>
+      <Metric Name = "Total 2KB" Enabled = "True"/>
+      <Metric Name = "Total 4KB" Enabled = "True"/>
+      <Metric Name = "Total 8KB" Enabled = "True"/>
+      <Metric Name = "Total 16KB" Enabled = "True"/>
+      <Metric Name = "Total 32KB" Enabled = "True"/>
+      <Metric Name = "Total 64KB" Enabled = "True"/>
+      <Metric Name = "Total 128KB" Enabled = "True"/>
+      <Metric Name = "Total 256KB" Enabled = "True"/>
+      <Metric Name = "Total 512KB" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Hits/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Misses/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Hit Ratio" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Hits/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Misses/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Hit Ratio" Enabled = "True"/>
+    </Scope>
+    <Scope Type = "Public Raid Group LUN" Enabled ="False">
+      <Metric Name = "Utilization" Enabled = "True"/>
+      <Metric Name = "Utilization-Optimal" Enabled = "True"/>
+      <Metric Name = "Utilization-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Queue Length" Enabled = "True"/>
+      <Metric Name = "Queue Length-Optimal" Enabled = "True"/>
+      <Metric Name = "Queue Length-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Response Time" Enabled = "True"/>
+      <Metric Name = "Response Time-Optimal" Enabled = "True"/>
+      <Metric Name = "Response Time-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Total Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Total Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Size" Enabled = "True"/>
+      <Metric Name = "Read Size-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Size-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Throughput" Enabled = "True"/>
+      <Metric Name = "Read Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Size" Enabled = "True"/>
+      <Metric Name = "Write Size-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Size-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Throughput" Enabled = "True"/>
+      <Metric Name = "Write Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Full Stripe Writes/s" Enabled = "True"/>
+      <Metric Name = "Prefetch Bandwidth" Enabled = "True"/>
+      <Metric Name = "Used Prefetches" Enabled = "True"/>
+      <Metric Name = "SP Cache Read Hits/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Read Misses/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Reads From WC/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Reads From RC/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Read Hit Ratio" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Hits/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Misses/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Rehits/s" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Hit Ratio" Enabled = "True"/>
+      <Metric Name = "SP Cache Write Rehit Ratio" Enabled = "True"/>
+      <Metric Name = "SP Cache Forced Flushes/s" Enabled = "True"/>
+      <Metric Name = "Disk Crossings" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length-Optimal" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Disk Crossings/s" Enabled = "True"/>
+      <Metric Name = "Service Time" Enabled = "True"/>
+      <Metric Name = "Service Time-Optimal" Enabled = "True"/>
+      <Metric Name = "Service Time-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read 512B" Enabled = "True"/>
+      <Metric Name = "Read 1KB" Enabled = "True"/>
+      <Metric Name = "Read 2KB" Enabled = "True"/>
+      <Metric Name = "Read 4KB" Enabled = "True"/>
+      <Metric Name = "Read 8KB" Enabled = "True"/>
+      <Metric Name = "Read 16KB" Enabled = "True"/>
+      <Metric Name = "Read 32KB" Enabled = "True"/>
+      <Metric Name = "Read 64KB" Enabled = "True"/>
+      <Metric Name = "Read 128KB" Enabled = "True"/>
+      <Metric Name = "Read 256KB" Enabled = "True"/>
+      <Metric Name = "Read 512KB" Enabled = "True"/>
+      <Metric Name = "Write 512B" Enabled = "True"/>
+      <Metric Name = "Write 1KB" Enabled = "True"/>
+      <Metric Name = "Write 2KB" Enabled = "True"/>
+      <Metric Name = "Write 4KB" Enabled = "True"/>
+      <Metric Name = "Write 8KB" Enabled = "True"/>
+      <Metric Name = "Write 16KB" Enabled = "True"/>
+      <Metric Name = "Write 32KB" Enabled = "True"/>
+      <Metric Name = "Write 64KB" Enabled = "True"/>
+      <Metric Name = "Write 128KB" Enabled = "True"/>
+      <Metric Name = "Write 256KB" Enabled = "True"/>
+      <Metric Name = "Write 512KB" Enabled = "True"/>
+      <Metric Name = "Total 512B" Enabled = "True"/>
+      <Metric Name = "Total 1KB" Enabled = "True"/>
+      <Metric Name = "Total 2KB" Enabled = "True"/>
+      <Metric Name = "Total 4KB" Enabled = "True"/>
+      <Metric Name = "Total 8KB" Enabled = "True"/>
+      <Metric Name = "Total 16KB" Enabled = "True"/>
+      <Metric Name = "Total 32KB" Enabled = "True"/>
+      <Metric Name = "Total 64KB" Enabled = "True"/>
+      <Metric Name = "Total 128KB" Enabled = "True"/>
+      <Metric Name = "Total 256KB" Enabled = "True"/>
+      <Metric Name = "Total 512KB" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count-Optimal" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count-Optimal" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Hits/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Misses/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Read Hit Ratio" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Hits/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Misses/s" Enabled = "True"/>
+      <Metric Name = "FAST Cache Write Hit Ratio" Enabled = "True="/>
+    </Scope>
+    <Scope Type = "RAID Group" Enabled = "True">
+      <Metric Name = "Object Name" Enabled = "False"/>
+      <Metric Name = "Poll Time" Enabled = "False"/>
+      <Metric Name = "Owner Array Name" Enabled = "False"/>
+      <Metric Name = "Utilization" Enabled = "True"/>
+      <Metric Name = "Queue Length" Enabled = "True"/>
+      <Metric Name = "Response Time" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth" Enabled = "False"/>
+      <Metric Name = "Read Size" Enabled = "False"/>
+      <Metric Name = "Read Throughput" Enabled = "False"/>
+      <Metric Name = "Write Bandwidth" Enabled = "False"/>
+      <Metric Name = "Write Size" Enabled = "False"/>
+      <Metric Name = "Write Throughput" Enabled = "False"/>
+      <Metric Name = "Average Busy Queue Length" Enabled = "True"/>
+      <Metric Name = "Service Time" Enabled = "False"/>
+      <Metric Name = "Average Seek Distance" Enabled = "False"/>
+    </Scope>
+    <Scope Type = "SP" Enabled = "True">
+      <Metric Name = "Utilization" Enabled = "True"/>
+      <Metric Name = "Queue Length" Enabled = "True"/>
+      <Metric Name = "Response Time" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth" Enabled = "False"/>
+      <Metric Name = "Read Size" Enabled = "False"/>
+      <Metric Name = "Read Throughput" Enabled = "False"/>
+      <Metric Name = "Write Bandwidth" Enabled = "False"/>
+      <Metric Name = "Write Size" Enabled = "False"/>
+      <Metric Name = "Write Throughput" Enabled = "False"/>
+      <Metric Name = "Average Busy Queue Length" Enabled = "True"/>
+      <Metric Name = "Service Time" Enabled = "False"/>
+      <Metric Name = "SP Cache Dirty Pages" Enabled = "False"/>
+      <Metric Name = "SP Cache Flush Ratio" Enabled = "False"/>
+      <Metric Name = "SP Cache MBs Flushed" Enabled = "False"/>
+      <Metric Name = "SP Cache High Water Flush On" Enabled = "False"/>
+      <Metric Name = "SP Cache Idle Flush On" Enabled = "False"/>
+      <Metric Name = "SP Cache Low Water Flush Off" Enabled = "False"/>
+      <Metric Name = "SP Write Cache Flushes/s" Enabled = "False"/>
+      <Metric Name = "FAST Cache Dirty Pages" Enabled = "False"/>
+      <Metric Name = "FAST Cache MBs Flushed" Enabled = "False"/>
+    </Scope>
+    <Scope Type = "Thin LUN" Enabled = "False">
+      <Metric Name = "Utilization" Enabled = "True"/>
+      <Metric Name = "Utilization-Optimal" Enabled = "True"/>
+      <Metric Name = "Utilization-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Queue Length" Enabled = "True"/>
+      <Metric Name = "Queue Length-Optimal" Enabled = "True"/>
+      <Metric Name = "Queue Length-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Response Time" Enabled = "True"/>
+      <Metric Name = "Response Time-Optimal" Enabled = "True"/>
+      <Metric Name = "Response Time-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Total Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Total Throughput" Enabled = "True"/>
+      <Metric Name = "Total Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Total Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Size" Enabled = "True"/>
+      <Metric Name = "Read Size-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Size-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Read Throughput" Enabled = "True"/>
+      <Metric Name = "Read Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Read Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Bandwidth-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Size" Enabled = "True"/>
+      <Metric Name = "Write Size-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Size-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Write Throughput" Enabled = "True"/>
+      <Metric Name = "Write Throughput-Optimal" Enabled = "True"/>
+      <Metric Name = "Write Throughput-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length-Optimal" Enabled = "True"/>
+      <Metric Name = "Average Busy Queue Length-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Service Time" Enabled = "True"/>
+      <Metric Name = "Service Time-Optimal" Enabled = "True"/>
+      <Metric Name = "Service Time-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count-Optimal" Enabled = "True"/>
+      <Metric Name = "Explicit Trespass Count-Nonoptimal" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count-Optimal" Enabled = "True"/>
+      <Metric Name = "Implicit Trespass Count-Nonoptimal" Enabled = "True"/>
+    </Scope >
+  </Monitor>
+</Configuration>
