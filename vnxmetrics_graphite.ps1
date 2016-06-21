@@ -128,7 +128,7 @@ Function Get-Capacity
 
 
 #Read the settings file to determine Scopes to include, and the graphite host settings
-[xml]$settingsFile = get-content "C:\it\test\vnxsettings.xml"
+[xml]$settingsFile = get-content ".\vnxsettings.xml"
 $gServer = $settingsFile.Configuration.Graphite.CarbonServer
 $gPort = $settingsFile.Configuration.Graphite.CarbonServerPort
 $mRoot = $settingsFile.Configuration.Graphite.MetricRoot
