@@ -165,7 +165,7 @@ naviseccli -h $spa analyzer -archiveretrieve -file $lastnarA -location $narpath
 Remove-Item -Path $narpath\$lastnarA
 Start-Sleep 15
 $narlistA = naviseccli -h $spa analyzer -archive -list
-$lastnarA = $narlistA[-5].Split(" ")[-1]
+$lastnarA = $narlistA[-1].Split(" ")[-1]
 if ((!(Test-Path -Path "$narpath\$lastnarA") -and !(Test-Path -Path "$narpath\$arrayname\$lastnarA")))
 {
 Write-Host "New Nar found, Retrieving $lastnarA"
