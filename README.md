@@ -17,7 +17,7 @@ Scopes and Metrics can be selected by setting them to 'True' in the vnxmetrics.x
 
 Using the script:
 
-Script uses naviseccli to query for capacity data, and to retrieve the the latest NAR file
+Script uses naviseccli to query for capacity data, and to retrieve the the latest NAR file.
 Script converts the NAR to XML, and then queries it for selected performance data. It converts this data to a format required for Graphite, and sends it to the Graphite server using the Send-GraphiteMetric function written by Matt Hodge, as listed above.
 NAR archives can be created after a minimum of 10 data points. At 5 min intervals, this is once every 50 minutes. More aggressive polling intervals may result in a performance hit on the array.
 
