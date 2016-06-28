@@ -24,7 +24,7 @@ NAR archives can be created after a minimum of 10 data points. At 5 min interval
 Parameters:
 
         .PARAMETER arrayName
-            The name of the VNX array, ex. sealb1vnx01. The script will add the "a" to the end of the array name to pull data.        
+            The name of the VNX array. The script will add the "a" to the end of the array name to pull data.        
         .PARAMETER narPath
             The folder where the Nar file gets retrieved to. Subfolders based on arrayName will be created to move collected Nars to.      
         .PARAMETER logPath
